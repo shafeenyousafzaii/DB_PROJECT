@@ -1,0 +1,19 @@
+<!-- index.html -->
+<a href="{% url 'DBPROJECT:index' %}">Home</a>
+<h1>Student Details</h1>
+<p>Name: {{ student.name }}</p>
+<p>Email: {{ student.email }}</p>
+<p>Contact No: {{ student.contact_no }}</p>
+
+<h1>Course Details</h1>
+<p>Course Name: {{ course.course_name }}</p>
+<p>Credit Hour: {{ course.credit_hour }}</p>
+<p>Pre-req: {{ course.pre_req }}</p>
+<p>Course Type: {{ course.course_type }}</p>
+<p>Credits: {{ course.credits }}</p>
+
+<h1>Instructor Details</h1>
+<p>Name: {{ instructor.name }}</p>
+<p>Email: {{ instructor.email }}</p>
+<p>Contact No: {{ instructor.contact_no }}</p>
+<p>Instructor Pay: {{ instructor.instructor_pay }}</p>
